@@ -1,11 +1,13 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
 function Aboutus() {
   return (
-    <div>
-        <h1>About Us</h1>
-    </div>
-  )
+    <>
+      <h1>About Us</h1>
+      <hr />
+      <Link to="/">Home</Link>
+    </>
+  );
 }
 
-export default Aboutus
+export default Aboutus;

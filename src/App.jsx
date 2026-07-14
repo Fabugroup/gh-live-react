@@ -1,15 +1,28 @@
-import React from 'react'
-import Welcome from './components/Welcome'
-import "./App.css"
-import Aboutus from './components/AboutUs'
+import "./App.css";
+import { Routes, Route, Link } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import AboutUs from "./components/Aboutus";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
-    <div>
-      <Welcome />
-      <Aboutus />
-    </div>
-  )
+    <>
+      <div>
+        <h1>
+            <Welcome />
+        </h1>
+        <nav>
+          <Link to="/">Home</Link> | <Link to="/aboutus">About Us</Link> |{" "}
+          <a href="https://www.google.com">Google</a>
+        </nav>
+      </div>
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;

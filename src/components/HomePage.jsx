@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <>
       {/* navigation to other pages */}
-      <h1>Welcome to React Router</h1>
+      <h1>Welcome to my first React page</h1>
       <hr />
       <Link to="/aboutus">About Us</Link> |
       <a href="https://www.google.com">Google</a>

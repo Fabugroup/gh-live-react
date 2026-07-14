@@ -3,7 +3,7 @@ import React from 'react'
 function Welcome() {
   return (
     <div>
-        <h1>Welcome to my First React Build App</h1>
+        <h1>Welcome to my First HomePage</h1>
     </div>
   )
 }

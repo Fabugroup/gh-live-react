@@ -5,9 +5,9 @@ function HomePage() {
     <>
       {/* navigation to other pages */}
       <h1>Home Page</h1>
-      <hr />
+      {/* <hr />
       <Link to="/aboutus">About Us</Link> |
-      <a href="https://www.google.com">Google</a>
+      <a href="https://www.google.com">Google</a> */}
     </>
   );
 }

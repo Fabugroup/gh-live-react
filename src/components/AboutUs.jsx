@@ -4,8 +4,8 @@ function Aboutus() {
   return (
     <>
       <h1>About Us</h1>
-      <hr />
-      <Link to="/">Home</Link>
+      {/* <hr />
+      <Link to="/">Home</Link> */}
     </>
   );
 }

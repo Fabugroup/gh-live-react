@@ -2,9 +2,12 @@ import React from 'react'
 
 function Welcome() {
   return (
-    <div>
+    <>
         <h1>Welcome to my First HomePage</h1>
-    </div>
+              {/* <hr />
+              <Link to="/aboutus">About Us</Link> |
+              <a href="https://www.google.com">Google</a> */}
+    </>
   )
 }
 
